@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinRateService", "CoinRateService\CoinRateService.csproj", "{B8F4E7DA-6517-4492-B906-3BBE19B0D13A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8F4E7DA-6517-4492-B906-3BBE19B0D13A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F4E7DA-6517-4492-B906-3BBE19B0D13A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F4E7DA-6517-4492-B906-3BBE19B0D13A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F4E7DA-6517-4492-B906-3BBE19B0D13A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35F1D64F-88CC-4F47-9B92-469DE0793E9A}
+	EndGlobalSection
+EndGlobal

@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTC.API", "BTC.API\BTC.API.csproj", "{401E63D1-CC2D-43A4-ABEA-B3B7B9CB2530}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalLoggerMonitor", "Test\CriticalLoggerMonitor.csproj", "{F66686E8-1F0C-43E8-B22C-DEE228F5DCCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueServices", "QueueServices\QueueServices.csproj", "{186F406F-1316-4141-8169-1FD524E76BF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{401E63D1-CC2D-43A4-ABEA-B3B7B9CB2530}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{401E63D1-CC2D-43A4-ABEA-B3B7B9CB2530}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{401E63D1-CC2D-43A4-ABEA-B3B7B9CB2530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66686E8-1F0C-43E8-B22C-DEE228F5DCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66686E8-1F0C-43E8-B22C-DEE228F5DCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66686E8-1F0C-43E8-B22C-DEE228F5DCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66686E8-1F0C-43E8-B22C-DEE228F5DCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186F406F-1316-4141-8169-1FD524E76BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186F406F-1316-4141-8169-1FD524E76BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186F406F-1316-4141-8169-1FD524E76BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186F406F-1316-4141-8169-1FD524E76BF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

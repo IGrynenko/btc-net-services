@@ -27,6 +27,12 @@ namespace BTC.API.Controllers
             _configuration = configuration;
         }
 
+        [HttpGet("test")]
+        public object Test()
+        {
+            throw new Exception("TEST");
+        }
+
         [HttpPost("create")]
         public async Task<ActionResult<UserDTO>> SignupUser([FromBody] UserModel model)
         {

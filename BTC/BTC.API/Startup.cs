@@ -46,17 +46,18 @@ namespace BTC.API
             services.AddControllers();
 
             services.AddTransient<IRestClient, RestClient>();
+            services.AddScoped<IQueueService, RabbitService>();
 
             services.AddScoped<ITokenService, TokenService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
+            //if (env.IsDevelopment())
+            //{
+            //    app.UseDeveloperExceptionPage();
+            //}
+            //else
             {
                 app.UseExceptionHandler("/error");
             }
